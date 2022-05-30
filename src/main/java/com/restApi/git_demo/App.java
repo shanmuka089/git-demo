@@ -10,7 +10,7 @@ public class App
 	
 	public void addData(String data) {
 		System.out.println("data: "+data);
-		if(data.equals("shanu")) {
+		if(data.equals(Constatnt.CRUSH)) {
 			System.out.println("wel come");
 		}
 	}
